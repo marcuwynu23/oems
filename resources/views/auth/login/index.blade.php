@@ -10,8 +10,8 @@
     <form action="{{ route('auth.login') }}" method="post">
         @csrf
         <div>
-            <label for="username">Username</label>
-            <input type="text" name="username" id="username">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
         </div>
         <div>
             <label for="password">Password</label>

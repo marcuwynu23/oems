@@ -10,8 +10,8 @@
     <form action="{{ route('auth.recovery') }}" method="post">
         @csrf
         <div>
-            <label for="username">Username</label>
-            <input type="text" name="username" id="username">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
         </div>
         <div>
             <button type="submit">Recover</button>
